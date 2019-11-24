@@ -6,7 +6,7 @@
 /*   By: jsilance <jsilance@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/08 22:07:46 by jsilance          #+#    #+#             */
-/*   Updated: 2019/11/18 21:59:32 by jsilance         ###   ########.fr       */
+/*   Updated: 2019/11/24 04:40:45 by jsilance         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,5 +70,8 @@ void		ft_lstiter(t_list *lst, void (*f)(void *));
 t_list		*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 int			ft_last_indexof(char *str, char *needle);
 int			ft_first_indexof(char *str, char *needle);
+char		*ft_strstock(char *ptr, const char *src);
+char		*ft_charstock(char *ptr, char src);
+char		*ft_strnstock(char *ptr, const char *src, size_t len);
 
 #endif
