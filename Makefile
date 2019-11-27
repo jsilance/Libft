@@ -38,20 +38,20 @@ OBJ_BONUS = $(SRC_BONUS:.c=.o)
 all: ${NAME}
 
 $(NAME): ${OBJ}
-	ar rc ${NAME} ${OBJ}
-	ranlib ${NAME}
+	@ar rc ${NAME} ${OBJ}
+	@ranlib ${NAME}
 
 bonus: ${OBJ_BONUS} ${OBJ}
-	ar rc ${NAME} ${OBJ_BONUS} ${OBJ}
+	@ar rc ${NAME} ${OBJ_BONUS} ${OBJ}
 
 %.o: %.c
-	${CC} ${CFLAGS} -c -I${HEADER} -o $@ $?
+	@${CC} ${CFLAGS} -c -I${HEADER} -o $@ $?
 
 clean:
-	/bin/rm -f ${OBJ} ${OBJ_BONUS}
+	@/bin/rm -f ${OBJ} ${OBJ_BONUS}
 
 fclean:	clean
-	/bin/rm -f $(NAME) 
+	@/bin/rm -f $(NAME) 
 
 re:	fclean all
 
