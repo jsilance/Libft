@@ -6,7 +6,7 @@
 #    By: jsilance <jsilance@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/10/11 20:18:18 by jsilance          #+#    #+#              #
-#    Updated: 2019/11/24 03:22:37 by jsilance         ###   ########.fr        #
+#    Updated: 2019/12/10 10:35:53 by jsilance         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,7 +25,7 @@ SRC_BONUS = ft_lstnew_bonus.c ft_lstadd_front_bonus.c ft_lstsize_bonus.c \
 ft_lstadd_back_bonus.c ft_lstdelone_bonus.c ft_lstclear_bonus.c \
 ft_lstiter_bonus.c ft_lstmap_bonus.c ft_laststr_indexof_bonus.c \
 ft_firststr_indexof_bonus.c ft_lstlast_bonus.c ft_charstock_bonus.c \
-ft_strstock_bonus.c ft_strnstock_bonus.c \
+ft_strstock_bonus.c ft_strnstock_bonus.c ft_itoa_base.c ft_uitoa.c \
 
 CC = gcc
 
