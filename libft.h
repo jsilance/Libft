@@ -6,7 +6,7 @@
 /*   By: jsilance <jsilance@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/08 22:07:46 by jsilance          #+#    #+#             */
-/*   Updated: 2019/12/10 10:35:21 by jsilance         ###   ########.fr       */
+/*   Updated: 2019/12/18 02:10:56 by jsilance         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <strings.h>
 # include <stdlib.h>
 # include <unistd.h>
+# include "get_next_line.h"
 
 typedef	struct s_list	t_list;
 struct		s_list
