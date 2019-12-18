@@ -6,7 +6,7 @@
 /*   By: jsilance <jsilance@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/08 22:07:46 by jsilance          #+#    #+#             */
-/*   Updated: 2019/12/18 02:10:56 by jsilance         ###   ########.fr       */
+/*   Updated: 2019/12/18 03:04:03 by jsilance         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,5 +76,8 @@ char		*ft_charstock(char *ptr, char src);
 char		*ft_strnstock(char *ptr, const char *src, size_t len, int f);
 char		*ft_itoa_base(int n, char *charset);
 char		*ft_uitoa(unsigned int n);
+int			get_next_line(int fd, char **line);
+int			str_liner(char *tmp, char temp[OPEN_MAX][BUFFER_SIZE + 1],
+				char **line, int fd);
 
 #endif
